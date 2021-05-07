@@ -62,7 +62,49 @@ ModelSweeper::
 	DAVE-ML model by plotting a 3D response surface of any output
 	with respect to a range of values for any two inputs (while
 	holding other inputs at nominal values).
+	
+Build Instructions
+------------------
 
+REQUIREMENTS::
+ - jre-6u45-windows-x64.exe   *Java Runtime Environment 1.6*
+ - jdk-6u45-windows-x64.exe   *Java Devlopment Kit 1.6*
+ - apache-ant-1.9.15-bin.zip  *Apache Ant Binary Distribution with support for minimum Java 6 at runtime*
+
+Instructions to compile DAVEtools::
+
+	1. Uninstall any existing Java software from the machine then restart
+
+	2. Run jre-6u45-windows-x64.exe and install accepting default settings
+
+	3. Run jdk-6u45-windows-x64.exe and install accepting default settings
+
+	4. In the settings app for 'environment variables' and select "Edit the system Environment Variables"
+
+	5. Click "Environment Vairables"
+
+	6. Under System Variables, add new variable (if it does not already exist) then click ok.
+        - Variable Name: JAVA_HOME
+        - Variable Value: C:\Program Files\Java\jdk1.6.0_45
+
+	7. Extract apache-ant-1.9.15-bin.zip then move the folder inside named "apache-ant-1.9.15" to C:\
+
+	8. Under System Variables, add new variable (if it does not already exist) then click ok.
+        - Variable Name: ANT_HOME
+        - Variable Value: C:\apache-ant-1.9.15
+
+	9. Under System Variables, Edit the system variable named 'Path'
+
+	10. Click edit text and append "%ANT_HOME%\bin;" to the end of Variable Value then click ok.
+
+	11. Open Command Prompt or Powershell and enter command "ant -v" and should output "Apache Ant(TM) version 1.9.15 compiled on May 10 2020"
+
+	12. Open a new Command Prompt or change directory to the location of the DAVEtools master directory using the 'cd' command.
+        - example command: cd C:\Users\USER_NAME_HERE\Documents\GitHub\DAVEtools
+
+	13. Enter the command "ant"
+
+	14. Should output DAVEtools.jar in the DAVEtools master directory if successful. 
 
 Catalogs: Parsing/validating against a local copy of +DAVEfunc.dtd+
 -------------------------------------------------------------------
