@@ -8,7 +8,7 @@
 //  claimed in the United States under Title 17, U.S. Code. All Other Rights Reserved.
 package gov.nasa.daveml.dave;
 
-import com.sun.org.apache.xerces.internal.util.XMLCatalogResolver;
+import org.apache.xerces.util.XMLCatalogResolver;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
