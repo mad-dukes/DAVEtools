@@ -65,8 +65,8 @@ ModelSweeper::
 	with respect to a range of values for any two inputs (while
 	holding other inputs at nominal values).
 	
-Build Instructions
-------------------
+Build Instructions (Windows)
+----------------------------
 
 REQUIREMENTS::
  - jre-6u45-windows-x64.exe   *Java Runtime Environment 1.6*
