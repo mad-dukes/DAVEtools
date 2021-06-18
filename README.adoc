@@ -108,8 +108,8 @@ Instructions to compile DAVEtools::
 
 	14. Should output DAVEtools.jar in the DAVEtools master directory if successful. 
 	
-.Command aliases 
-[NOTE]
+
+[Command Aliases]
 =====================================================================
 For the following examples (and for general daily use) it is helpful
 to define these aliases in your +.cshrc+ or +.bashrc+ file (for linux) or Windows PowerShell/Command Prompt:
