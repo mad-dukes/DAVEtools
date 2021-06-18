@@ -105,6 +105,25 @@ Instructions to compile DAVEtools::
 	13. Enter the command "ant"
 
 	14. Should output DAVEtools.jar in the DAVEtools master directory if successful. 
+	
+.Command aliases 
+[NOTE]
+=====================================================================
+For the following examples (and for general daily use) it is helpful
+to define these aliases in your +.cshrc+ or +.bashrc+ file (for linux) or Windows PowerShell/Command Prompt:
+
+
++alias *dave*="java -cp 'path_to/DAVEtools.jar'
+gov.nasa.daveml.dave.DAVE"+ +
++alias *dave2sl*="java -cp _path_to/DAVEtools.jar_
+gov.nasa.daveml.dave2sl.DAVE2SL"+ +
++alias *dave2post*="java -cp _path_to/DAVEtools.jar_
+gov.nasa.daveml.dave2post.DAVE2POST"+ +
++alias *dave2otis*="java -cp _path_to/DAVEtools.jar_
+gov.nasa.daveml.dave2otis.DAVE2OTIS"+ +
++alias *sweep*="java -cp 'path_to/DAVEtools.jar'
+gov.nasa.daveml.sweeper.ModelSweeperUI"+ +
+=====================================================================
 
 Catalogs: Parsing/validating against a local copy of +DAVEfunc.dtd+
 -------------------------------------------------------------------
@@ -224,25 +243,6 @@ link:http://daveml.org/examples/index.html#HL-20[examples page]). This database 
 used in an approach and landing simulation as described in
 link:http://dscb.larc.nasa.gov/DCBStaff/ebj/Papers/TM-107580.pdf[NASA
 TM 107580].
-
-.Command aliases 
-[NOTE]
-=====================================================================
-For the following examples (and for general daily use) it is helpful
-to define these aliases in your +.cshrc+ or +.bashrc+ file:
-
-
-+alias *dave*="java -cp 'path_to/DAVEtools.jar'
-gov.nasa.daveml.dave.DAVE"+ +
-+alias *dave2sl*="java -cp _path_to/DAVEtools.jar_
-gov.nasa.daveml.dave2sl.DAVE2SL"+ +
-+alias *dave2post*="java -cp _path_to/DAVEtools.jar_
-gov.nasa.daveml.dave2post.DAVE2POST"+ +
-+alias *dave2otis*="java -cp _path_to/DAVEtools.jar_
-gov.nasa.daveml.dave2otis.DAVE2OTIS"+ +
-+alias *sweep*="java -cp 'path_to/DAVEtools.jar'
-gov.nasa.daveml.sweeper.ModelSweeperUI"+ +
-=====================================================================
 
 
 Simple help
